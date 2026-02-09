@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LOGIN PAGE</title>
+</head>
+<body>
+    <div class="login-tab">
+            <h2 class="login-name">Login</h2>
+
+        <div>
+            <label for="email-input">Email</label> 
+            <input type="email" class="email-input" placeholder="Enter email" id="email" required><br>
+            <small class="error-message" id="email-error"></small>
+        </div>
+
+        <div>
+            <label for="password-input">Password</label>
+            <input type="password" class="password-input" placeholder="Enter password" id="password" required><br>
+            <small class="error-message" id="password-error"></small>
+        </div>
+        <div class="check-box">
+            <input type="checkbox" class="remember-me"> <label for="remember-me"></label><br>
+            <span>Remember me</span>
+        </div>
+        <button class="login-button">SIGN IN</button>
+        
+        <div class="credential-recovery">
+            <p>Forget <span class="">Username / Password</span>?</p> <br>
+            <p>Don't have an account? <span>Sign up</span></p>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
